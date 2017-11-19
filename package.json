@@ -1,0 +1,21 @@
+{
+  "name": "flowapp",
+  "version": "1.0.0",
+  "description": "App to demonstrate the feature of Flow JS - STATIC TYPE CHECKER FOR JAVASCRIPT",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ -d dist/",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "type",
+    "checker"
+  ],
+  "author": "Mohammed Rafi Kaleem",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.59.0"
+  }
+}
